@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:stretch
 
 # Back up the original file\
 RUN mv /etc/apt/sources.list /etc/apt/sources.list.bak
