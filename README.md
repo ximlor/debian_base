@@ -8,3 +8,7 @@
 
 1. 将官方源替换为国内源。
 2. 时区更改为 CST 时区。
+3. 添加ps。
+
+## Docker Hub
+[https://hub.docker.com/r/ximlor/debian_base/]
