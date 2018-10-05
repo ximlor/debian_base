@@ -18,6 +18,7 @@ RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get -y install git curl wget
 
 # Clean up
-RUN DEBIAN_FRONTEND=noninteractive apt-get -y autoremove && \
+RUN apt-get update && \
+    DEBIAN_FRONTEND=noninteractive apt-get -y autoremove && \
     DEBIAN_FRONTEND=noninteractive apt-get clean
 
